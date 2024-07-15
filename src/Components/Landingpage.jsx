@@ -98,8 +98,8 @@ export default function
             <img src={waffle} style={{padding:'25px 15px 0px 20px'}}></img>
             </div>
                 <div className='hy'>
-                <h2>Item: <span>Donut</span></h2>
-                <h3>Price: <span style={{color:'red'}}>$50</span></h3>
+                <h2>Item: <span>Chocalate waffles</span></h2>
+                <h3>Price: <span style={{color:'red'}}>$100</span></h3>
                 </div>
            
                   <button className='cart'>Add to Cart</button>
