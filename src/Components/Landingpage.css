@@ -21,7 +21,7 @@
 }
 
 .text h1{
-    font-size: 80px;
+    font-size: 60px;
     color: #49076d;
 }
 .text p
@@ -122,7 +122,7 @@
 {
      background-color: rgb(235, 224, 224);
      width: 20%;
-     height: 60vh;
+     height: auto;
      margin:  30px 30px 30px 30px;
      border: 1px solid black;
 }
@@ -140,7 +140,7 @@
      color: white;
      border-radius: 4px 4px 4px 4px;
      float:right;
-     margin-right: 10px;
+     margin: 0px 10px 20px;
      cursor: pointer;  
      transition: transform .2s;
 }
