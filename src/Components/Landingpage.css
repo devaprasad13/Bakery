@@ -1,0 +1,271 @@
+*
+{
+    scroll-behavior: smooth;
+}
+.page
+{
+    width: 100%;
+    height: 100vh;
+    background:#FFCBCB;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.text
+{
+    flex: 1;
+   flex-basis: 50%;
+}
+
+.text h1{
+    font-size: 80px;
+    color: #49076d;
+}
+.text p
+{
+    font-size: 20px;
+    color: black;
+    padding: 5px 0px 5px 0px;
+}
+.text button
+{
+      background-color: #49076d;
+      color: white;
+      padding: 5px 5px 5px 5px;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      margin-top: 10px;
+      font-family: sans-serif;
+      cursor: pointer;
+}
+.img
+{
+    flex: 1;
+    flex-basis: 50%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img
+{
+     max-width: 100%;
+     height: auto;
+     filter: drop-shadow(5px 5px 10px rgba(29, 5, 5, 0.5));
+     overflow: hidden;
+     z-index: 50;
+}
+/* About us */
+
+
+.about
+{
+  height: 100vh;
+  width: 100%;
+  background-color: #FFCBCB;
+  padding: 50px 20px;
+}
+.title
+{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-contents
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 3rem;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.image1 img
+{
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+.text1 p
+{
+    max-width: 800px;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 50px;
+
+}
+.service
+{
+  height: auto;
+  width: 100%;
+  background-color: #FFCBCB;
+  padding: 60px 20px;
+}
+.head
+{
+    display: flex;
+    flex-direction: column;
+   font-size: 2.0rem;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.cont .c1
+{
+     background-color: rgb(235, 224, 224);
+     width: 20%;
+     height: 60vh;
+     margin:  30px 30px 30px 30px;
+     border: 1px solid black;
+}
+.cont
+{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.cart
+{
+     border: 1px solid black;
+     padding: 10px 10px 10px 10px;
+     background-color: rgb(9, 112, 67);
+     color: white;
+     border-radius: 4px 4px 4px 4px;
+     float:right;
+     margin-right: 10px;
+     cursor: pointer;  
+     transition: transform .2s;
+}
+.cart:hover
+{
+    background-color: rgb(22, 196, 141);
+    color: black;
+    transform: scale(1.2);
+}
+
+.hu
+{
+    background-color: #49076d;
+}
+.hu1
+{
+    background: rgb(144,51,8);
+background: linear-gradient(21deg, rgba(144,51,8,1) 0%, rgba(103,3,3,1) 90%);
+}
+.hu2
+{
+    background:rgb(226,168,182);
+}
+.hu3
+{
+    background:rgb(232,100,124);
+}
+.hy
+{
+    padding:10px 0px 10px 20px;
+}
+.c1 img
+{
+    width:17rem;
+     filter: drop-shadow(10px 8px 10px rgba(0, 0, 0, 0.5));
+}
+.more
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.more button{
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(13, 61, 80);
+    color: aliceblue;
+    cursor: pointer;
+}
+@media all and (max-width:798px)
+{
+    .page
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .text
+    {
+        flex-basis: auto;
+        width: 100%;
+    }
+    .text h1
+    {
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    .img {
+   flex-basis: auto;
+        width: 100%;
+    }
+    .about
+    {
+      height: auto;
+      width: 100%;
+      background-color: #FFCBCB;
+      padding: 50px 20px;
+    }
+    .about-contents
+    {
+        flex-direction: column;
+        text-align: center;
+
+    }
+   .text1
+   {
+     text-align: center;
+     padding: 0 20px;
+   }
+   .text1 p
+   {
+    
+    padding-top: 0px;
+    padding-left: 0px;
+    line-height: 30px;
+    font-size: 1rem;
+    
+   }
+    .title
+    {
+        padding-top: 0px;
+    }
+    .head {
+        font-size: 1.5rem;
+        padding-top: 30px;
+      }
+    
+      .cont .c1 {
+        width: 80%;
+        height: auto;
+        margin: 15px;
+      }
+    
+      .c1 img {
+        width: 100%;
+      }
+    
+      .more button {
+        padding: 10px 16px;
+      }
+      .cart
+      {
+        
+   
+     margin-bottom: 10px;
+     cursor: pointer;  
+      }
+}
