@@ -9,6 +9,9 @@ import donut from '../Image/Donut.png'
 import burger from  '../Image/OPP.png'
 import cake from  '../Image/cake.png'
 import waffle from  '../Image/Waffles.png'
+import sandwich from  '../Image/sandwich.png'
+import momos from  '../Image/momos.png'
+import french from  '../Image/french.png'
 export default function 
 () {
   return (
@@ -69,7 +72,7 @@ export default function
                 <h3>Price: <span style={{color:'red'}}>$50</span></h3>
                 </div>
            
-                  <button className='cart'>Add to Cart</button>
+                  <button className='cart'><i class="bi bi-cart4"></i>Add to Cart</button>
            </div>
            <div className='c1'>
             <div className='hu1'>
@@ -105,34 +108,34 @@ export default function
                   <button className='cart'>Add to Cart</button>
            </div>
            <div className='c1'>
-            <div className='hu'>
-            <img src={donut} ></img>
+            <div className='hp'>
+            <img src={momos} ></img>
             </div>
                 <div className='hy'>
-                <h2>Item: <span>Donut</span></h2>
-                <h3>Price: <span style={{color:'red'}}>$50</span></h3>
+                <h2>Item: <span>Momos</span></h2>
+                <h3>Price: <span style={{color:'red'}}>$200</span></h3>
                 </div>
            
                   <button className='cart'>Add to Cart</button>
            </div>
            <div className='c1'>
-            <div className='hu'>
-            <img src={donut} ></img>
+            <div className='hul'>
+            <img src={sandwich} ></img>
             </div>
                 <div className='hy'>
-                <h2>Item: <span>Donut</span></h2>
-                <h3>Price: <span style={{color:'red'}}>$50</span></h3>
+                <h2>Item: <span>Sandwich</span></h2>
+                <h3>Price: <span style={{color:'red'}}>$150</span></h3>
                 </div>
            
                   <button className='cart'>Add to Cart</button>
            </div>
            <div className='c1'>
-            <div className='hu'>
-            <img src={donut} ></img>
+            <div className='hu' style={{backgroundColor:'darkgrey'}}>
+            <img src={french} style={{width:'14.5rem',padding:'50px 15px 10px 49px'}}></img>
             </div>
                 <div className='hy'>
-                <h2>Item: <span>Donut</span></h2>
-                <h3>Price: <span style={{color:'red'}}>$50</span></h3>
+                <h2>Item: <span>French Fries</span></h2>
+                <h3>Price: <span style={{color:'red'}}>$100</span></h3>
                 </div>
            
                   <button className='cart'>Add to Cart</button>

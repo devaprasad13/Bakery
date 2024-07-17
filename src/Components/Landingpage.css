@@ -172,6 +172,14 @@ background: linear-gradient(21deg, rgba(144,51,8,1) 0%, rgba(103,3,3,1) 90%);
 {
     padding:10px 0px 10px 20px;
 }
+.hp
+{
+    background-color: #ffe6b3;
+}
+.hul
+{
+    background-color: #f8f851;
+}
 .c1 img
 {
     width:17rem;
